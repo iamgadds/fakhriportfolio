@@ -1,6 +1,6 @@
 import React from "react";
-import fb_icon from "./images/social-media-icons/fb-icon.png";
-import linkedin_icon from "./images/social-media-icons/linkedin-icon.png";
+//import fb_icon from "./images/social-media-icons/fb-icon.png";
+//import linkedin_icon from "./images/social-media-icons/linkedin-icon.png";
 import github_icon from "./images/social-media-icons/github-icon.png";
 const Footer = () => {
   return (
