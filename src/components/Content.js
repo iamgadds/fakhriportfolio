@@ -79,7 +79,6 @@ const Content = (props) => {
   //Type of Work Array
   const workTypes = [
     "Custom Websites & WordPress Themes",
-    "Flyers & Business Cards Designs",
   ];
   const [myWorkType, setMyWorkType] = useState("");
   const [showDiv, setShowDiv] = useState(true);
@@ -92,22 +91,19 @@ const Content = (props) => {
       <div className="row about-me-content" id="about-me">
         <div className="col-md-12">
           <div className="heading">
-            Some Words About Me
+            Some Words About Us
             <hr style={{ backgroundColor: "#000000" }} />
           </div>
         </div>
         <div className="col-md-6 mt-3 content">
-          I am Devon Wintz, a Website & Mobile App Developer and UI/UX
-          enthusiast from Georgetown, Guyana. I create custom websites to help
-          businesses and individuals do better online. I primarily use
-          JavaScript and its associated libriaries and frameworks such as Vue,
-          React, jQuery, etc, but picking up a new framework or language is not
-          a problem.
+        <span className="content-bold">Fakhri Infotech</span> is a dynamic and forward-thinking software development company dedicated to delivering cutting-edge solutions tailored to meet the unique needs of our clients. Specializing in custom software development, web and mobile application development, and IT consulting, we leverage the latest technologies to empower businesses and organizations to thrive in the digital era.
+
+          Our team of skilled and experienced developers, designers, and technology enthusiasts are committed to excellence, ensuring that each project is delivered with precision and innovation. At Fakhri Infotech, we pride ourselves on our collaborative approach, working closely with our clients to understand their goals and objectives, and delivering solutions that exceed expectations.
           <br />
           <br />
           <span style={{ fontWeight: "bold" }}>Goal: </span>
           <span>
-            To help start-ups, small businesses and individuals achieve high
+            To help businesses and individuals achieve high
             quality websites and expectional user experience.
           </span>
           <br />
@@ -169,7 +165,7 @@ const Content = (props) => {
               className="progress-bar"
               role="progressbar"
               style={{
-                width: "70%",
+                width: "80%",
                 fontSize: "100%",
                 backgroundColor: "#1c2331",
               }}
@@ -177,11 +173,29 @@ const Content = (props) => {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              70%
+              80%
             </div>
           </div>
 
           <span>React</span>
+          <div className="progress mb-2" style={{ textAlign: "center" }}>
+            <div
+              className="progress-bar"
+              role="progressbar"
+              style={{
+                width: "95%",
+                fontSize: "100%",
+                backgroundColor: "#1c2331",
+              }}
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              95%
+            </div>
+          </div>
+
+          <span>Dot Net/C#/REST Api</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
@@ -199,31 +213,13 @@ const Content = (props) => {
             </div>
           </div>
 
-          <span>Ionic</span>
-          <div className="progress mb-2" style={{ textAlign: "center" }}>
-            <div
-              className="progress-bar"
-              role="progressbar"
-              style={{
-                width: "60%",
-                fontSize: "100%",
-                backgroundColor: "#1c2331",
-              }}
-              aria-valuenow="80"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              60%
-            </div>
-          </div>
-
           <span>WordPress</span>
           <div className="progress mb-2" style={{ textAlign: "center" }}>
             <div
               className="progress-bar"
               role="progressbar"
               style={{
-                width: "70%",
+                width: "65%",
                 fontSize: "100%",
                 backgroundColor: "#1c2331",
               }}
@@ -231,7 +227,7 @@ const Content = (props) => {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              85%
+              65%
             </div>
           </div>
           <span>Photoshop</span>
@@ -274,15 +270,10 @@ const Content = (props) => {
       <div className="row latest-work" id="my-work">
         <div className="col-md-12 mt-4">
           <div className="heading">
-            My Work
+            Our Work
             <hr style={{ backgroundColor: "#000000" }} />
           </div>
-          <div
-            className="mb-5"
-            style={{ textAlign: "center", fontStyle: "italic" }}
-          >
-            Click the two options below to view some of my work.
-          </div>
+          
         </div>
 
         <div className="col-md-12 btn-group">
@@ -309,7 +300,7 @@ const Content = (props) => {
                   </span>
                   <br />{" "}
                   <span style={{ fontSize: "85%" }} className="workTypeDetails">
-                    Custom-Built Websites & Custom-Built WordPress Themes
+                    Custom-Built Websites/Apps & Custom-Built Themes
                   </span>
                 </div>
               )}

@@ -7,14 +7,14 @@ const Header = () => {
       <Navbar />
       <div className="row hero-text">
         <div className="col-md-12 mt-5 intro">Hey, there</div>
-        <div className="col-md-12 intro">I'm</div>
-        <div className="col-md-12 my-name">DEVON WINTZ</div>
+        <div className="col-md-12 intro">We're</div>
+        <div className="col-md-12 my-name">Fakhri InfoTech</div>
         <div className="col-md-12 mb-5 intro">
-          A Freelance
+          
           <span
             class="txt-rotate"
             data-period="2000"
-            data-rotate='[ " Web Developer.", " Designer." ]'
+            data-rotate='[ "Innovating Solutions for a Digital Future", "Your Strategic Technology Partner" ]'
           ></span>
         </div>
       </div>

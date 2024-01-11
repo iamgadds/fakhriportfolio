@@ -17,12 +17,12 @@ const Navbar = () => {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <a href="/my-portfolio/#about-me" className="nav-link">
-              About Me
+              About Us
             </a>
           </li>
           <li className="nav-item">
             <a href="/my-portfolio/#my-work" className="nav-link">
-              My Work
+              Our Work
             </a>
           </li>
         </ul>
