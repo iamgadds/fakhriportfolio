@@ -22,12 +22,6 @@ const Footer = () => {
           &copy; All Rights Reserved By Fakhri InfoTech
         </div>
         <div className="col-md-6 social-media-links">
-          <a href="">
-            <img src={fb_icon} alt="fb-icon" width="3%" height="20" />
-          </a>
-          <a href="" className="ml-2">
-            <img src={linkedin_icon} alt="linkedin-icon" width="3%" height="20" />
-          </a>
           <a href="https://github.com/FakhriInfoTech" className="ml-2">
             <img src={github_icon} alt="github-icon" width="3%" height="25" />
           </a>

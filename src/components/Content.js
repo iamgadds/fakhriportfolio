@@ -6,7 +6,7 @@ import GraphicsProjectImage from "./Projects/ProjectImages";
 import "./script";
 //---Websites Images---
 import esi from "./images/projects/rsz_esi-laptop.png";
-import businessWebsiteTemplate from "./images/projects/Simple-Business-Website-Template-New.png";
+//import businessWebsiteTemplate from "./images/projects/Simple-Business-Website-Template-New.png";
 import devdynamics from "./images/projects/Coming Soon.png";
 //---Graphics Design Images---
 import sampleBusinessDesign from "./images/projects/sample-business-design.png";

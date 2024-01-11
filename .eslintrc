@@ -1,0 +1,7 @@
+{
+    "rules": {
+      // Add or customize rules as needed
+      "jsx-a11y/anchor-is-valid": "off",
+      "no-unused-vars": "off"
+    }
+  }
