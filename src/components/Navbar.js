@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="navbar navbar-expand-md navbar-dark">
       <a href="/my-portfolio" className="navbar-brand">
-        DW
+        KH
       </a>
       <button
         className="navbar-toggler"
