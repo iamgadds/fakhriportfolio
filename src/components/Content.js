@@ -5,9 +5,9 @@ import GraphicsProjectImage from "./Projects/ProjectImages";
 //Includes
 import "./script";
 //---Websites Images---
-import esi from "./images/projects/rsz_esi-laptop.png";
+import esi from "./images/projects/Naqiyah-pack-home.JPG";
 //import businessWebsiteTemplate from "./images/projects/Simple-Business-Website-Template-New.png";
-import devdynamics from "./images/projects/Coming Soon.png";
+import devdynamics from "./images/projects/llt-traders.JPG";
 //---Graphics Design Images---
 import sampleBusinessDesign from "./images/projects/sample-business-design.png";
 import tr from "./images/projects/true-radiance.png";
@@ -27,7 +27,7 @@ const Content = (props) => {
     />,
     <GraphicsProjectImage
       src={esiDesign}
-      url="https://drive.google.com/file/d/1D2M7yNYeqt4NLnLziv1AgXW17TOvCfiY/preview"
+      url="https://drive.google.com/file/d/1YnHruZmF_TVMf156Wrgfp3rxV1ZPFhzh/view?usp=sharing"
       title="Eco Solutions Furniture Inc. (Landing Page)"
     />,
     <GraphicsProjectImage
@@ -61,8 +61,8 @@ const Content = (props) => {
   let webProjectImgArr = [
     <WebProjectImage
       src={esi}
-      url="https://ecosolutionsfurniture.com"
-      title="Eco-Solutions Furniture Inc."
+      url="https://www.naqiyahpack.com/"
+      title="Naqiyah-Pack."
     />,
     // <WebProjectImage
     //   src={businessWebsiteTemplate}
@@ -71,8 +71,8 @@ const Content = (props) => {
     // />,
     <WebProjectImage
       src={devdynamics}
-      url="/#"
-      title="DevDynamics Enterprise"
+      url="https://lttraders.vercel.app/"
+      title="LLT Traders"
     />,
   ];
 
